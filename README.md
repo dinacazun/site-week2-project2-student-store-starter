@@ -20,6 +20,10 @@ Check out our [deployed Student Store](https://codepath-student-store-demo.surge
 - [X] Users can search for products.
 - [ ] User can click on a product in the grid to navigate to a new page containing additional product details.
 
+<a href="https://www.loom.com/share/9874dd7590bc41819c8cddfeaeb82a34">
+    <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/9874dd7590bc41819c8cddfeaeb82a34-with-play.gif">
+  </a>
+
 ### Stretch Features
 
 - [ ] Users can click to expand the shopping cart in the left navigation.

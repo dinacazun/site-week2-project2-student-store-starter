@@ -5,7 +5,7 @@ import Hero from "../Hero/Hero"
 import ProductGrid from "../ProductGrid/ProductGrid"
 import SearchBar from "../SearchBar/SearchBar"
 
-export default function Home() {
+export default function Home({addToCart, removeToCart}) {
   const [products, setProducts] = useState([]);
   const [filteredProducts, setFilteredProducts] = useState(products);
 
@@ -26,8 +26,8 @@ export default function Home() {
 
   const handleSearch = (query) => {
     const filtered = products.filter((product) => {
-      console.log(product.name)
-      console.log(query)
+      // console.log(product.name)
+      // console.log(query)
       return product.name.toLowerCase().includes(query.toLowerCase());
     })
     setFilteredProducts(filtered);
@@ -41,7 +41,7 @@ export default function Home() {
     <div className = "home">
       <Hero>Hero</Hero>
       <SearchBar handleSearch={handleSearch}/>
-      <ProductGrid products = {filteredProducts}/>
+      <ProductGrid products = {filteredProducts} addToCart={addToCart} removeToCart={removeToCart}/>
       <div className = "about">
         <h4>About</h4>
         <p>The codepath student store offers great products at great prices from a great team and for a great cause.</p>

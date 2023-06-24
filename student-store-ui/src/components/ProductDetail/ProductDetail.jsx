@@ -3,13 +3,13 @@ import axios from "axios";
 import { useParams } from "react-router-dom"
 import "./ProductDetail.css"
 
-export default function ProductDetail(handleAddItemToCart, handleRemoveItemToCart) {
+export default function ProductDetail(addToCart, removeToCart) {
     const [product, setProduct] = useState()
     const {productId} = useParams()
 
     useEffect(() => {
         axios.get("/store/:productId").then((data) => {
-            console.log(data.product)
+            // console.log(data.product)
             setProduct(data.product)
         });
     }, [])

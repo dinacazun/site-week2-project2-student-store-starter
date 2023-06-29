@@ -38,8 +38,8 @@ Check out our [deployed Student Store](https://codepath-student-store-demo.surge
 - [X] The shopping cart displays a table of products, quantities, subtotal, tax, and total.
 - [ ] Users can checkout, and receive a receipt confirming their purchase.
 
-<a href="https://www.loom.com/share/9874dd7590bc41819c8cddfeaeb82a34">
-    <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/9874dd7590bc41819c8cddfeaeb82a34-with-play.gif">
+<a href="https://www.loom.com/share/fe45be0f18254cb9b017822e7ad58087">
+    <img style="max-width:300px;" src="null">
   </a>
 
 ### Stretch Features

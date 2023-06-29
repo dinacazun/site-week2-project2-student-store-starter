@@ -39,6 +39,7 @@ Check out our [deployed Student Store](https://codepath-student-store-demo.surge
 - [ ] Users can checkout, and receive a receipt confirming their purchase.
 
 <a href="https://www.loom.com/share/fe45be0f18254cb9b017822e7ad58087">
+    <p>Student Store Project Part 2: SITE Week 3 - Watch Video</p>
     <img style="max-width:300px;" src="null">
   </a>
 
